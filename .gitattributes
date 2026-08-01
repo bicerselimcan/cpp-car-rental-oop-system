@@ -1,0 +1,8 @@
+* text=auto
+
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+
+*.pdf linguist-vendored
+*.html linguist-vendored
+*.docx linguist-vendored
