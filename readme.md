@@ -16,9 +16,8 @@ The project implements a complete **Car Rental Management System** in C++, demon
    * `Vehicle` & `Car`: Base and derived class hierarchy encapsulating vehicle attributes, daily rates, and availability.
    * `Date` & `Price`: Utility classes handling calendar arithmetic and rental fee computations.
    * `Personel` & `City` & `Place`: Location and staff management structures supporting dispatch workflows.
-2. **Polymorphic Operations:** Implemented virtual member functions enabling dynamic binding during rental calculations.
-3. **Comprehensive Documentation:** Produced a detailed PDF project report (`CAR RENTAL SYSTEM - REPORT.pdf`) documenting UML diagrams, class relationships, and execution flow charts.
-
+2. **Polymorphic Operations:** Implemented virtual member functions (`getInformation`) enabling dynamic binding across derived objects during runtime execution.
+3. **Execution Flow & State Management:** Engineered a dual-portal CLI (Personnel & Customer) featuring real-time fleet inventory updates, secure staff authentication, and dynamic date-based conflict checking.
 ## Evaluation & Key Retrospective Learnings
 
 * **Encapsulation & Interface Safety:** Keeping member variables private (`m_dailyRate`, `m_plate`) while exposing controlled getters/setters preserves domain invariant integrity.
@@ -27,11 +26,6 @@ The project implements a complete **Car Rental Management System** in C++, demon
 ## Repository Structure
 
 ```text
-├── CAR RENTAL SYSTEM - REPORT.pdf           # Primary project architectural report
-├── CENG 241.pdf                              # Course syllabus & guidelines
-├── CENG241PROJE.docx                         # Project specification proposal
-├── CENG241PROJEchart.docx                    # Class hierarchy flowcharts
-├── CENG-241 Midterm Notları...html           # Midterm exam reference notes
 ├── Project.cpp                               # Main application entry point / driver
 ├── Vehicle.h / Vehicle.cpp                   # Base vehicle class declaration & implementation
 ├── Car.h / Car.cpp                           # Derived car class declaration & implementation
